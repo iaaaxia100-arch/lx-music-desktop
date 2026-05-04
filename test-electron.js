@@ -1,0 +1,1 @@
+console.log('Testing require(electron)...'); const electron = require('electron'); console.log('typeof electron:', typeof electron); console.log('electron:', typeof electron === 'object' ? Object.keys(electron).slice(0, 15) : electron);
